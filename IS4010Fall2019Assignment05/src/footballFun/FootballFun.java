@@ -1,8 +1,8 @@
 /*
  * IS4010 Fal 2019
  * Assignment 05
- * Bill Nicholson
- * nicholdw@ucmail.uc.edu
+ * Brett Ziegler
+ * zieglebt@mail.uc.edu
  */
 package footballFun;
 
@@ -26,6 +26,15 @@ public class FootballFun {
 		}
 	}
 	public static String translateScore (int score) {
+		if (score == 2) {return "safety";}
+		if (score == 3) {return "field goal";}
+		if (score == 6) {return "touchdown";}
+		if (score == 7) {return "touchdown and extra point";}
+		if (score == 8) {return "touchdown and 2-point conversion";}
+		if (score == -1) {return "";}
+		if (score == 1) {return "invalid";}
+		if (score == 10) {return "you must be playing Quidditch ";}
+		
 		return "";
 	}
 }

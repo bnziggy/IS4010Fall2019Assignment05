@@ -26,14 +26,14 @@ public class FootballFun {
 		}
 	}
 	public static String translateScore (int score) {
-		if (score == 2) {return "safety";}
-		if (score == 3) {return "field goal";}
-		if (score == 6) {return "touchdown";}
-		if (score == 7) {return "touchdown and extra point";}
-		if (score == 8) {return "touchdown and 2-point conversion";}
-		if (score == -1) {return "";}
-		if (score == 1) {return "invalid";}
-		if (score == 10) {return "you must be playing Quidditch ";}
+		if (score == 2) {return "safety";}		//returns score for safety
+		if (score == 3) {return "field goal";}		//returns score for field goal
+		if (score == 6) {return "touchdown";}		//returns score for touchdown
+		if (score == 7) {return "touchdown and extra point";}		//returns score for touchdown and extra point
+		if (score == 8) {return "touchdown and 2-point conversion";}		//returns score for touchdown and 2-point conversion
+		if (score == -1) {return "";}		//returns score for ""
+		if (score == 1) {return "invalid";}		//returns score for invalid
+		if (score == 10) {return "you must be playing Quidditch ";}		//returns score for you must be playing Quidditch
 		
 		return "";
 	}
